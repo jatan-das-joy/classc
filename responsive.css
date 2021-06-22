@@ -45,6 +45,34 @@
     .section-title h1 {
         font-size: 53px;
     }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img {
+        float: none;
+    }
+    .logo span {
+        position: relative;
+        top: -20px;
+    }
+    .header-button {
+        width: 30%;
+        text-align: center;
+    }
+    .header-menu.left {
+        width: 60%;
+    }
+    .primary-menu ul li a {
+        padding: 0 6px;
+    }
+    .primary-menu ul {
+        text-align: center;
+    }
+    .primary-menu ul li ul {
+        width: 124px;
+
+    }
 
 
 }
@@ -54,7 +82,7 @@
 
 
     .primary-menu ul li a {
-        font-size: 14px;
+        font-size: 15px !important;
         line-height: 59px;
     }
     .primary-menu ul li a {
@@ -294,3 +322,91 @@
 
 
 }
+
+
+
+@media all and (max-width:600px){
+    .header-menu.left {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header-button.left {
+        position: absolute;
+        visibility: hidden;
+        opacity: o;
+    }
+    iframe {
+        height: 400px;
+    }
+
+}
+@media all and (max-width:470px){
+    .banner-content h3 {
+        font-size: 22px;
+    }
+    .banner-content h2 {
+        font-size: 34px;
+        margin: 15px 0;
+    }
+    .default-btn {
+        padding: 9px 9px;
+        margin-bottom: 15px;
+    }
+    .service-box {
+        width: 100%;
+        text-align: center;
+    }
+    .section-title h1 {
+        font-size: 33px;
+
+    }
+    .team-section .section-title h2 {
+        font-size: 33px;
+        margin-bottom: 0;
+    }
+    .pricing-table-item {
+        width: 100%;
+        text-align: left;
+    }
+    .p-heading h1 {
+        margin: 12px auto;
+        font-size: 49px;
+    }
+
+    .team-section .section-title h2 {
+        font-size: 33px;
+    }
+    .team-members.clear {
+        margin-top: 30px;
+    }
+    .member {
+        width: 100%;
+        text-align: center;
+    }
+    .blog-post-item {
+        width: 100%;
+        text-align: center;
+    }
+    .i-item {
+        width: 100%;
+    }
+    iframe {
+        height: 350px;
+    }
+    .submit-btn {
+   
+        font-size: 21px;
+        padding: 8px 42px;
+        font-weight: 600;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+
+
+}
+
+
